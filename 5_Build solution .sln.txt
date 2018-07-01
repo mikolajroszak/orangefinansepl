@@ -1,0 +1,10 @@
+2018-07-01T11:29:37.6140014Z ##[section]Starting: Build solution **\*.sln
+2018-07-01T11:29:37.6142750Z ==============================================================================
+2018-07-01T11:29:37.6142879Z Task         : Visual Studio Build
+2018-07-01T11:29:37.6142997Z Description  : Build with MSBuild and set the Visual Studio version property
+2018-07-01T11:29:37.6143402Z Version      : 1.126.0
+2018-07-01T11:29:37.6143492Z Author       : Microsoft Corporation
+2018-07-01T11:29:37.6143596Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613727)
+2018-07-01T11:29:37.6144157Z ==============================================================================
+2018-07-01T11:29:42.2986331Z ##[error]Solution not found using search pattern 'D:\a\1\s\**\*.sln'.
+2018-07-01T11:29:42.3108498Z ##[section]Finishing: Build solution **\*.sln

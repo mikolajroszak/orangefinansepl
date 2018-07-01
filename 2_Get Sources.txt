@@ -1,0 +1,52 @@
+2018-07-01T11:29:26.8429268Z ##[section]Starting: Get Sources
+2018-07-01T11:29:26.8826494Z Syncing repository: 22253654 (TfsGit)
+2018-07-01T11:29:26.8896472Z Prepending Path environment variable with directory containing 'git.exe'.
+2018-07-01T11:29:26.8998182Z ##[command]git version
+2018-07-01T11:29:27.3444988Z git version 2.14.3.windows.1
+2018-07-01T11:29:27.3555450Z ##[command]git lfs version
+2018-07-01T11:29:28.3771096Z git-lfs/1.5.2 (GitHub; windows amd64; go 1.7.3; git 547a06aa)
+2018-07-01T11:29:28.4425042Z ##[command]git init "D:\a\1\s"
+2018-07-01T11:29:29.0724595Z Initialized empty Git repository in D:/a/1/s/.git/
+2018-07-01T11:29:29.1010353Z ##[command]git remote add origin https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654
+2018-07-01T11:29:29.2529862Z ##[command]git config gc.auto 0
+2018-07-01T11:29:29.4276454Z ##[command]git config --get-all http.https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654.extraheader
+2018-07-01T11:29:29.4921321Z ##[command]git config --get-all http.proxy
+2018-07-01T11:29:29.5796737Z ##[command]git -c http.extraheader="AUTHORIZATION: bearer ***" fetch --tags --prune --progress --no-recurse-submodules origin
+2018-07-01T11:29:31.0214209Z remote: 
+2018-07-01T11:29:31.0214456Z remote:                    vSTs           
+2018-07-01T11:29:31.0214543Z remote:                  vSTSVSTSv        
+2018-07-01T11:29:31.0214677Z remote:                vSTSVSTSVST        
+2018-07-01T11:29:31.0214752Z remote: VSTS         vSTSVSTSVSTSV        
+2018-07-01T11:29:31.0214827Z remote: VSTSVS     vSTSVSTSV STSVS        
+2018-07-01T11:29:31.0214902Z remote: VSTSVSTSvsTSVSTSVS   TSVST        
+2018-07-01T11:29:31.0214996Z remote: VS  tSVSTSVSTSv      STSVS        
+2018-07-01T11:29:31.0215071Z remote: VS   tSVSTSVST       SVSTS        
+2018-07-01T11:29:31.0215144Z remote: VS tSVSTSVSTSVSts    VSTSV        
+2018-07-01T11:29:31.0215219Z remote: VSTSVST    SVSTSVSTs VSTSV        
+2018-07-01T11:29:31.0215310Z remote: VSTSv        STSVSTSVSTSVS        
+2018-07-01T11:29:31.0215396Z remote:                VSTSVSTSVST        
+2018-07-01T11:29:31.0215515Z remote:                  VSTSVSTs        
+2018-07-01T11:29:31.0215610Z remote:                    VSTs    (TM)        
+2018-07-01T11:29:31.0215697Z remote: 
+2018-07-01T11:29:31.0215805Z remote:  Microsoft (R) Visual Studio (R) Team Services        
+2018-07-01T11:29:31.0215888Z remote: 
+2018-07-01T11:29:31.0216153Z remote: We noticed you're using an older version of Git. For the best experience, upgrade to a newer version.        
+2018-07-01T11:29:31.0272605Z remote: 
+2018-07-01T11:29:31.0273160Z remote: Found 32 objects to send. (6 ms)        
+2018-07-01T11:29:31.1777011Z From https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654
+2018-07-01T11:29:31.1778291Z  * [new branch]      LOGIMI.COM -> origin/LOGIMI.COM
+2018-07-01T11:29:31.1778558Z  * [new branch]      master     -> origin/master
+2018-07-01T11:29:31.1971083Z ##[command]git checkout --progress --force c0f71e3121f6ad25bd3a65dbf9438ddfde9a6afb
+2018-07-01T11:29:31.2363269Z Note: checking out 'c0f71e3121f6ad25bd3a65dbf9438ddfde9a6afb'.
+2018-07-01T11:29:31.2363520Z 
+2018-07-01T11:29:31.2363615Z You are in 'detached HEAD' state. You can look around, make experimental
+2018-07-01T11:29:31.2363723Z changes and commit them, and you can discard any commits you make in this
+2018-07-01T11:29:31.2363861Z state without impacting any branches by performing another checkout.
+2018-07-01T11:29:31.2364770Z 
+2018-07-01T11:29:31.2364866Z If you want to create a new branch to retain commits you create, you may
+2018-07-01T11:29:31.2364974Z do so (now or later) by using -b with the checkout command again. Example:
+2018-07-01T11:29:31.2365492Z 
+2018-07-01T11:29:31.2365588Z   git checkout -b <new-branch-name>
+2018-07-01T11:29:31.2365648Z 
+2018-07-01T11:29:31.2365766Z HEAD is now at c0f71e3... Added MIKOŁAJ ROSZAK
+2018-07-01T11:29:31.2387082Z ##[section]Finishing: Get Sources

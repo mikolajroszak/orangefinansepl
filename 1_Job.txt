@@ -1,0 +1,111 @@
+2018-07-01T11:29:21.6142701Z ##[section]Starting: Job
+2018-07-01T11:29:21.6164217Z Current agent version: '2.134.2'
+2018-07-01T11:29:22.0356740Z ##[section]Starting: Initialize Job
+2018-07-01T11:29:22.0605855Z Prepare build directory.
+2018-07-01T11:29:22.0956008Z Set build variables.
+2018-07-01T11:29:22.1002278Z Download all required tasks.
+2018-07-01T11:29:22.1181108Z Downloading task: NuGetToolInstaller
+2018-07-01T11:29:23.4679066Z Downloading task: NuGetCommand
+2018-07-01T11:29:26.3484743Z Downloading task: VSBuild
+2018-07-01T11:29:26.5516444Z Downloading task: PublishBuildArtifacts
+2018-07-01T11:29:26.7970343Z ##[section]Finishing: Initialize Job
+2018-07-01T11:29:26.8429324Z ##[section]Starting: Get Sources
+2018-07-01T11:29:26.8826563Z Syncing repository: 22253654 (TfsGit)
+2018-07-01T11:29:26.8896506Z Prepending Path environment variable with directory containing 'git.exe'.
+2018-07-01T11:29:26.8998224Z ##[command]git version
+2018-07-01T11:29:27.3445019Z git version 2.14.3.windows.1
+2018-07-01T11:29:27.3555480Z ##[command]git lfs version
+2018-07-01T11:29:28.3771181Z git-lfs/1.5.2 (GitHub; windows amd64; go 1.7.3; git 547a06aa)
+2018-07-01T11:29:28.4425424Z ##[command]git init "D:\a\1\s"
+2018-07-01T11:29:29.0724762Z Initialized empty Git repository in D:/a/1/s/.git/
+2018-07-01T11:29:29.1010403Z ##[command]git remote add origin https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654
+2018-07-01T11:29:29.2529978Z ##[command]git config gc.auto 0
+2018-07-01T11:29:29.4276555Z ##[command]git config --get-all http.https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654.extraheader
+2018-07-01T11:29:29.4921791Z ##[command]git config --get-all http.proxy
+2018-07-01T11:29:29.5796869Z ##[command]git -c http.extraheader="AUTHORIZATION: bearer ***" fetch --tags --prune --progress --no-recurse-submodules origin
+2018-07-01T11:29:31.0214275Z remote: 
+2018-07-01T11:29:31.0214467Z remote:                    vSTs           
+2018-07-01T11:29:31.0214550Z remote:                  vSTSVSTSv        
+2018-07-01T11:29:31.0214685Z remote:                vSTSVSTSVST        
+2018-07-01T11:29:31.0214760Z remote: VSTS         vSTSVSTSVSTSV        
+2018-07-01T11:29:31.0214834Z remote: VSTSVS     vSTSVSTSV STSVS        
+2018-07-01T11:29:31.0214910Z remote: VSTSVSTSvsTSVSTSVS   TSVST        
+2018-07-01T11:29:31.0215004Z remote: VS  tSVSTSVSTSv      STSVS        
+2018-07-01T11:29:31.0215078Z remote: VS   tSVSTSVST       SVSTS        
+2018-07-01T11:29:31.0215151Z remote: VS tSVSTSVSTSVSts    VSTSV        
+2018-07-01T11:29:31.0215226Z remote: VSTSVST    SVSTSVSTs VSTSV        
+2018-07-01T11:29:31.0215328Z remote: VSTSv        STSVSTSVSTSVS        
+2018-07-01T11:29:31.0215403Z remote:                VSTSVSTSVST        
+2018-07-01T11:29:31.0215524Z remote:                  VSTSVSTs        
+2018-07-01T11:29:31.0215619Z remote:                    VSTs    (TM)        
+2018-07-01T11:29:31.0215736Z remote: 
+2018-07-01T11:29:31.0215813Z remote:  Microsoft (R) Visual Studio (R) Team Services        
+2018-07-01T11:29:31.0215895Z remote: 
+2018-07-01T11:29:31.0216182Z remote: We noticed you're using an older version of Git. For the best experience, upgrade to a newer version.        
+2018-07-01T11:29:31.0272638Z remote: 
+2018-07-01T11:29:31.0273175Z remote: Found 32 objects to send. (6 ms)        
+2018-07-01T11:29:31.1777079Z From https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654
+2018-07-01T11:29:31.1778317Z  * [new branch]      LOGIMI.COM -> origin/LOGIMI.COM
+2018-07-01T11:29:31.1778652Z  * [new branch]      master     -> origin/master
+2018-07-01T11:29:31.1971137Z ##[command]git checkout --progress --force c0f71e3121f6ad25bd3a65dbf9438ddfde9a6afb
+2018-07-01T11:29:31.2363344Z Note: checking out 'c0f71e3121f6ad25bd3a65dbf9438ddfde9a6afb'.
+2018-07-01T11:29:31.2363532Z 
+2018-07-01T11:29:31.2363625Z You are in 'detached HEAD' state. You can look around, make experimental
+2018-07-01T11:29:31.2363762Z changes and commit them, and you can discard any commits you make in this
+2018-07-01T11:29:31.2363872Z state without impacting any branches by performing another checkout.
+2018-07-01T11:29:31.2364786Z 
+2018-07-01T11:29:31.2364876Z If you want to create a new branch to retain commits you create, you may
+2018-07-01T11:29:31.2365007Z do so (now or later) by using -b with the checkout command again. Example:
+2018-07-01T11:29:31.2365507Z 
+2018-07-01T11:29:31.2365598Z   git checkout -b <new-branch-name>
+2018-07-01T11:29:31.2365657Z 
+2018-07-01T11:29:31.2365796Z HEAD is now at c0f71e3... Added MIKOŁAJ ROSZAK
+2018-07-01T11:29:31.2387105Z ##[section]Finishing: Get Sources
+2018-07-01T11:29:31.2401627Z ##[section]Starting: Use NuGet 4.4.1
+2018-07-01T11:29:31.2614150Z ==============================================================================
+2018-07-01T11:29:31.2614257Z Task         : NuGet Tool Installer
+2018-07-01T11:29:31.2614398Z Description  : Acquires a specific version of NuGet from the internet or the tools cache and adds it to the PATH. Use this step to change the version of NuGet used in the NuGet steps.
+2018-07-01T11:29:31.2614532Z Version      : 0.1.5
+2018-07-01T11:29:31.2614607Z Author       : Microsoft Corporation
+2018-07-01T11:29:31.2614716Z Help         : [More Information](https://go.microsoft.com/fwlink/?linkid=852538)
+2018-07-01T11:29:31.2614812Z ==============================================================================
+2018-07-01T11:29:32.2132136Z Downloading: https://dist.nuget.org/win-x86-commandline/v4.4.1/nuget.exe
+2018-07-01T11:29:32.3230614Z Caching tool: NuGet 4.4.1 x64
+2018-07-01T11:29:32.3236009Z Using version: 4.4.1
+2018-07-01T11:29:32.3236638Z Found tool in cache: NuGet 4.4.1 x64
+2018-07-01T11:29:32.3236796Z Using tool path: D:\a\_tool\NuGet\4.4.1\x64
+2018-07-01T11:29:32.3237028Z Prepending PATH environment variable with directory: D:\a\_tool\NuGet\4.4.1\x64
+2018-07-01T11:29:32.3299884Z ##[section]Finishing: Use NuGet 4.4.1
+2018-07-01T11:29:32.3309081Z ##[section]Starting: NuGet restore **\*.sln
+2018-07-01T11:29:32.3314041Z ==============================================================================
+2018-07-01T11:29:32.3314142Z Task         : NuGet
+2018-07-01T11:29:32.3314281Z Description  : Restore, pack, or push NuGet packages, or run a NuGet command. Supports NuGet.org and authenticated feeds like Package Management and MyGet. Uses NuGet.exe and works with .NET Framework apps. For .NET Core and .NET Standard apps, use the .NET Core task.
+2018-07-01T11:29:32.3314435Z Version      : 2.0.28
+2018-07-01T11:29:32.3314503Z Author       : Microsoft Corporation
+2018-07-01T11:29:32.3314600Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613747)
+2018-07-01T11:29:32.3314684Z ==============================================================================
+2018-07-01T11:29:34.9337150Z [command]C:\Windows\system32\chcp.com 65001
+2018-07-01T11:29:34.9337354Z Active code page: 65001
+2018-07-01T11:29:35.0233978Z Detected NuGet version 4.4.1.4656 / 4.4.1
+2018-07-01T11:29:35.0426297Z SYSTEMVSSCONNECTION exists true
+2018-07-01T11:29:35.0428146Z Saving NuGet.config to a temporary config file.
+2018-07-01T11:29:35.0432236Z [command]D:\a\_tool\NuGet\4.4.1\x64\nuget.exe sources Add -NonInteractive -Name NuGetOrg -Source https://api.nuget.org/v3/index.json -ConfigFile D:\a\1\Nuget\tempNuGet_20.config
+2018-07-01T11:29:37.5811245Z Package Source with Name: NuGetOrg added successfully.
+2018-07-01T11:29:37.5819775Z Saving NuGet.config to a temporary config file.
+2018-07-01T11:29:37.6130773Z ##[section]Finishing: NuGet restore **\*.sln
+2018-07-01T11:29:37.6140052Z ##[section]Starting: Build solution **\*.sln
+2018-07-01T11:29:37.6142779Z ==============================================================================
+2018-07-01T11:29:37.6142889Z Task         : Visual Studio Build
+2018-07-01T11:29:37.6143199Z Description  : Build with MSBuild and set the Visual Studio version property
+2018-07-01T11:29:37.6143412Z Version      : 1.126.0
+2018-07-01T11:29:37.6143502Z Author       : Microsoft Corporation
+2018-07-01T11:29:37.6143607Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613727)
+2018-07-01T11:29:37.6144173Z ==============================================================================
+2018-07-01T11:29:42.2986392Z ##[error]Solution not found using search pattern 'D:\a\1\s\**\*.sln'.
+2018-07-01T11:29:42.3108532Z ##[section]Finishing: Build solution **\*.sln
+2018-07-01T11:29:42.3124393Z ##[section]Starting: Post Job Cleanup
+2018-07-01T11:29:42.3185668Z Cleaning any cached credential from repository: 22253654 (Git)
+2018-07-01T11:29:42.3233835Z ##[command]git remote set-url origin https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654
+2018-07-01T11:29:42.3453666Z ##[command]git remote set-url --push origin https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654
+2018-07-01T11:29:42.3633675Z ##[section]Finishing: Post Job Cleanup
+2018-07-01T11:29:42.3899757Z ##[section]Finishing: Job

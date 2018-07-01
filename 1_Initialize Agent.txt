@@ -1,0 +1,4 @@
+Hosted Agent successfully assigned.
+Configuring connection settings for Hosted Agent
+Starting Hosted Agent
+Initializing connection to Hosted Agent

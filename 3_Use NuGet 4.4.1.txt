@@ -1,0 +1,15 @@
+2018-07-01T11:29:31.2401594Z ##[section]Starting: Use NuGet 4.4.1
+2018-07-01T11:29:31.2614120Z ==============================================================================
+2018-07-01T11:29:31.2614247Z Task         : NuGet Tool Installer
+2018-07-01T11:29:31.2614389Z Description  : Acquires a specific version of NuGet from the internet or the tools cache and adds it to the PATH. Use this step to change the version of NuGet used in the NuGet steps.
+2018-07-01T11:29:31.2614523Z Version      : 0.1.5
+2018-07-01T11:29:31.2614599Z Author       : Microsoft Corporation
+2018-07-01T11:29:31.2614707Z Help         : [More Information](https://go.microsoft.com/fwlink/?linkid=852538)
+2018-07-01T11:29:31.2614804Z ==============================================================================
+2018-07-01T11:29:32.2131881Z Downloading: https://dist.nuget.org/win-x86-commandline/v4.4.1/nuget.exe
+2018-07-01T11:29:32.3230455Z Caching tool: NuGet 4.4.1 x64
+2018-07-01T11:29:32.3235983Z Using version: 4.4.1
+2018-07-01T11:29:32.3236588Z Found tool in cache: NuGet 4.4.1 x64
+2018-07-01T11:29:32.3236787Z Using tool path: D:\a\_tool\NuGet\4.4.1\x64
+2018-07-01T11:29:32.3237019Z Prepending PATH environment variable with directory: D:\a\_tool\NuGet\4.4.1\x64
+2018-07-01T11:29:32.3299862Z ##[section]Finishing: Use NuGet 4.4.1
