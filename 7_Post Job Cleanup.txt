@@ -1,0 +1,5 @@
+2018-07-01T11:29:42.3124360Z ##[section]Starting: Post Job Cleanup
+2018-07-01T11:29:42.3185643Z Cleaning any cached credential from repository: 22253654 (Git)
+2018-07-01T11:29:42.3233807Z ##[command]git remote set-url origin https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654
+2018-07-01T11:29:42.3453637Z ##[command]git remote set-url --push origin https://orangefinanse.visualstudio.com/MyFirstProject/_git/22253654
+2018-07-01T11:29:42.3633654Z ##[section]Finishing: Post Job Cleanup

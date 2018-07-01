@@ -1,0 +1,17 @@
+2018-07-01T11:29:32.3309048Z ##[section]Starting: NuGet restore **\*.sln
+2018-07-01T11:29:32.3314019Z ==============================================================================
+2018-07-01T11:29:32.3314135Z Task         : NuGet
+2018-07-01T11:29:32.3314273Z Description  : Restore, pack, or push NuGet packages, or run a NuGet command. Supports NuGet.org and authenticated feeds like Package Management and MyGet. Uses NuGet.exe and works with .NET Framework apps. For .NET Core and .NET Standard apps, use the .NET Core task.
+2018-07-01T11:29:32.3314426Z Version      : 2.0.28
+2018-07-01T11:29:32.3314496Z Author       : Microsoft Corporation
+2018-07-01T11:29:32.3314592Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613747)
+2018-07-01T11:29:32.3314677Z ==============================================================================
+2018-07-01T11:29:34.9337102Z [command]C:\Windows\system32\chcp.com 65001
+2018-07-01T11:29:34.9337341Z Active code page: 65001
+2018-07-01T11:29:35.0233841Z Detected NuGet version 4.4.1.4656 / 4.4.1
+2018-07-01T11:29:35.0426257Z SYSTEMVSSCONNECTION exists true
+2018-07-01T11:29:35.0428131Z Saving NuGet.config to a temporary config file.
+2018-07-01T11:29:35.0432219Z [command]D:\a\_tool\NuGet\4.4.1\x64\nuget.exe sources Add -NonInteractive -Name NuGetOrg -Source https://api.nuget.org/v3/index.json -ConfigFile D:\a\1\Nuget\tempNuGet_20.config
+2018-07-01T11:29:37.5811169Z Package Source with Name: NuGetOrg added successfully.
+2018-07-01T11:29:37.5819751Z Saving NuGet.config to a temporary config file.
+2018-07-01T11:29:37.6130748Z ##[section]Finishing: NuGet restore **\*.sln

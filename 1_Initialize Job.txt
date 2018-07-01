@@ -1,0 +1,9 @@
+2018-07-01T11:29:22.0356677Z ##[section]Starting: Initialize Job
+2018-07-01T11:29:22.0605817Z Prepare build directory.
+2018-07-01T11:29:22.0955973Z Set build variables.
+2018-07-01T11:29:22.1002249Z Download all required tasks.
+2018-07-01T11:29:22.1181069Z Downloading task: NuGetToolInstaller
+2018-07-01T11:29:23.4679023Z Downloading task: NuGetCommand
+2018-07-01T11:29:26.3484709Z Downloading task: VSBuild
+2018-07-01T11:29:26.5516412Z Downloading task: PublishBuildArtifacts
+2018-07-01T11:29:26.7970308Z ##[section]Finishing: Initialize Job
